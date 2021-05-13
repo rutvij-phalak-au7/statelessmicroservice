@@ -1,0 +1,37 @@
+{
+  "name": "microserver",
+  "version": "0.0.6",
+  "description": "A base class providing common configuration and infrastructure for a microservice.",
+  "main": "module.js",
+  "scripts": {
+    "test": "jasmine-node --color --captureExceptions --verbose test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webonise/microservices.git"
+  },
+  "keywords": [
+    "server",
+    "express",
+    "microserver",
+    "microservice"
+  ],
+  "author": "Webonise Lab",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/webonise/microservices/issues"
+  },
+  "homepage": "https://github.com/webonise/microservices",
+  "devDependencies": {
+    "UnderscoreMatchersForJasmine": "0.0.5",
+    "frisby": "^0.8.5",
+    "underscore.string": "^2.4.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.6.2",
+    "configise": "^0.2.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "multer": "^0.1.7"
+  }
+}
